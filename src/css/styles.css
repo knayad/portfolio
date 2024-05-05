@@ -1,0 +1,307 @@
+.typeEffect {
+  font-family: "Oswald", sans-serif;
+  color: #3629d2;
+  border-right: black;
+  animation: blinking 900ms infinite;
+}
+
+@keyframes blinking {
+  0% {
+    border-color: black;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+}
+
+#my-spiel {
+  font-family: "Dawning of a New Day", cursive;
+  font-size: 58px;
+  background-color: rgb(255, 255, 255, 0.75);
+}
+
+.nameTagSize {
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+#my-name {
+  font-family: "Dawning of a New Day", cursive;
+  font-size: 150px;
+  background-color: white;
+  color: black;
+  align-content: center;
+}
+
+#my-name-tag-hello {
+  font-size: 50px;
+  background-color: #d22971;
+  color: white;
+  padding: 0.5em;
+  border-radius: 25px;
+}
+#my-name-tag {
+  font-size: 30px;
+  background-color: rgb(210, 41, 113);
+  color: white;
+  border-radius: 25px;
+}
+
+#sup {
+  /* transform: rotate(25deg); */
+  /* Equal to rotateZ(45deg) */
+  padding: 0.5em;
+}
+
+#green {
+  color: #29d28a;
+}
+
+.blue {
+  color: #3629d2;
+}
+
+.yellow {
+  color: #c6d229;
+}
+.pink {
+  color: #d22971;
+}
+
+/* .spline-avatar { */
+/* border: 2px solid red; */
+/* padding: 10px; */
+/* background: transparent; */
+/* border-radius: 5px; */
+/* background: linear-gradient(190, 227, 215, white); */
+
+/* .landing-page-col:nth-child(even) {
+  background-color: rgb(255, 245, 238, 0.75);
+  text-align: center;
+  word-wrap: break-word;
+  padding: 1em;
+  border-radius: 45px;
+}
+.landing-page-col:nth-child(odd) {
+  background-color: rgb(190, 227, 215, 0.75);
+  text-align: center;
+  word-wrap: break-word;
+  padding: 1em;
+  border-radius: 25px;
+} */
+
+.nav {
+  background-color: rgb(255, 255, 255, 0.75);
+}
+
+#nav-Nadia {
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.projects {
+  font-family: "Merriweather", serif;
+  flex-wrap: wrap;
+}
+
+.project-row {
+  font-size: x-large;
+}
+
+.project-row:nth-child(even) {
+  background-color: rgb(255, 245, 238, 0.75);
+  text-align: center;
+  word-wrap: break-word;
+  padding: 1em;
+}
+
+.project-row:nth-child(odd) {
+  background-color: rgb(255, 235, 205, 0.75);
+  text-align: center;
+  word-wrap: break-word;
+  padding: 1em;
+}
+
+.projects h2 {
+  background-color: rgb(190, 227, 215, 0.85);
+  padding: 1em;
+  border-radius: 55px;
+}
+
+/* reviews */
+.review-list-test {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+  text-align: left;
+}
+
+.review-details-test {
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.review-details-test h2 {
+  margin: 0 0 10px 0;
+}
+
+.reviews {
+  background: hsl(216, 98%, 52%, 35%); /*  35% opaque background only */
+  padding: 2em;
+  align-items: center;
+  text-align: justify;
+  border-radius: 55px;
+}
+.create-review {
+  align-items: center;
+  text-align: center;
+  background-color: hsl(45, 100%, 51%, 45%);
+  border-radius: 55px;
+}
+.create-review label {
+  text-align: left;
+  display: block;
+}
+
+.create-review input,
+.create-review textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 10px;
+}
+
+.create-review button {
+  background: #3629d2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* end reviews  */
+
+#summary {
+  background-color: rgb(190, 227, 215, 0.5);
+  padding: 2em;
+  border-radius: 55px;
+}
+#summary h5 {
+  text-decoration-line: underline;
+}
+
+.not-found {
+  background-color: rgb(190, 227, 215, 0.85);
+  padding: 1em;
+  border-radius: 55px;
+}
+
+#heart {
+  border-radius: 4px;
+  padding: 2px;
+  width: 50px;
+}
+
+#monster {
+  border-radius: 4px;
+  padding: 2px;
+  width: 450px;
+}
+
+/* home page & about page */
+#aboutMeBlurb {
+  font-family: "Dawning of a New Day", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.about {
+  text-align: left;
+}
+
+#aboutSkull {
+}
+
+/* slider
+.slider-images {
+  width: ;
+  object-fit: scale-down;
+  border-radius: 70%;
+  height: fit-content;
+} */
+
+/* .slide img {
+  width: auto;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  transition: transform 300ms;
+  opacity: 1;
+}
+
+.arrow {
+  color: #d22971;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #3629d2;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+} */
+
+.skillIconG2P svg {
+  transform: scale(10);
+  color: #29d28a;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.skillIconG2P svg:hover {
+  color: #d22971;
+  opacity: 1;
+}
+
+.skillIconP2G svg {
+  transform: scale(10);
+  color: #d22971;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.skillIconP2G svg:hover {
+  color: #29d28a;
+  opacity: 1;
+}
