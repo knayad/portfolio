@@ -30,10 +30,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="portfolio" element={<Home />} />
-          <Route path="reviews" element={<Reviews />} />
-          <Route path="repos" element={<Repos />} />
-          <Route path="about" element={<About />} />
-          <Route path="hire" element={<HireMe />} />
+          <Route path="portfolio/reviews" element={<Reviews />} />
+          <Route path="portfolio/repos" element={<Repos />} />
+          <Route path="portfolio/about" element={<About />} />
+          <Route path="portfolio/hire" element={<HireMe />} />
           <Route path="*" element={<NotFound />} />
           {/* 
           <body>
