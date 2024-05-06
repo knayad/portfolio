@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //components
 import NavbarComp from "./components/NavbarComp";
-// import ModalComponent from "./components/ModalComponent";
 
 //pages
 import Home from "./pages/Home";
@@ -35,13 +34,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="hire" element={<HireMe />} />
           <Route path="*" element={<NotFound />} />
-          {/* 
-          <body>
-            <br />
-          </body> */}
         </Routes>
       </BrowserRouter>
-      {/* <ModalComponent /> */}
       <footer>
         <Footer />
       </footer>
