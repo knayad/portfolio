@@ -13,11 +13,11 @@ import {
 // import { TbBrandJavascript } from "react-icons/tb";
 import { RiReactjsFill } from "react-icons/ri";
 
-import sup from "../assets/home/bastrad-sup.png";
-import busGiphy from "../assets/home/MIT-bus-stops-giphy.gif";
-import pacMan from "../assets/home/pacMan factory- giphy.gif";
-import eyesGiphy from "../assets/home/giphy-eyes.gif";
-import numberRun from "../assets/home/numberRun-giphy.gif";
+import sup from "../assets/pages/bastrad-sup.png";
+import busGiphy from "../assets/pages/MIT-bus-stops-giphy.gif";
+import pacMan from "../assets/pages/pacMan factory- giphy.gif";
+import eyesGiphy from "../assets/pages/giphy-eyes.gif";
+import numberRun from "../assets/pages/numberRun-giphy.gif";
 
 import MySpline from "../components/MySpline";
 import TypeWriter from "../components/TypeWriter";
