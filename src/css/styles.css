@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
 
-.welcome {
-  font-family: "Bungee Spice", cursive;
-}
-
 .typeEffect {
   font-family: "Oswald", sans-serif;
   color: #3629d2;
@@ -233,8 +229,8 @@
   text-align: left;
 }
 
-#aboutSkull {
-}
+/* #aboutSkull {
+} */
 
 /* slider
 .slider-images {
@@ -244,7 +240,7 @@
   height: fit-content;
 } */
 
-.slide img {
+/* .slide img {
   width: auto;
   margin: 0 auto;
 }
@@ -284,7 +280,7 @@
 .prev {
   left: 0%;
   top: 50%;
-}
+} */
 
 .skillIconG2P svg {
   transform: scale(10);
