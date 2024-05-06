@@ -2,8 +2,7 @@ import "./App.css";
 import "./css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// remove BrowserRouter because it doesn't work on GitHub Pages; replaced HashRouter where BrowserRouter was instead.
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //components
 import NavbarComp from "./components/NavbarComp";
@@ -26,7 +25,7 @@ function App() {
       <br />
       <br />
       <br />
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
@@ -41,7 +40,7 @@ function App() {
             <br />
           </body> */}
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       {/* <ModalComponent /> */}
       <footer>
         <Footer />
