@@ -9,12 +9,7 @@ import Navbar from "react-bootstrap/Navbar";
 class NavbarComp extends Component {
   render() {
     return (
-      <Navbar
-        fixed="top"
-        collapseOnSelect
-        expand="lg"
-        className="nav bg-body-tertiary"
-      >
+      <Navbar fixed="top" collapseOnSelect expand="lg" className="nav">
         <Container>
           <Navbar.Brand href="home">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
