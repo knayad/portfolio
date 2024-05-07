@@ -1,4 +1,5 @@
 {
+  " proxy": "https://portfolio-api-op4o.onrender.com",
   "homepage": "https://myusername.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
