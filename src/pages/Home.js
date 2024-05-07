@@ -48,8 +48,8 @@ const Home = () => {
       <Row>
         <HomePageAccordion />
       </Row>
-      <ModalComponent />
       <MySpline />
+      <ModalComponent />
     </Container>
   );
 };
