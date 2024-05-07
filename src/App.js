@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //components
-import NavbarComp from "./components/NavbarComp";
+// import NavbarComp from "./components/NavbarComp";
 
 //pages
 import Home from "./pages/Home";
@@ -19,7 +19,7 @@ import HireMe from "./pages/HireMe";
 function App() {
   return (
     <div className="App">
-      <NavbarComp />
+      {/* <NavbarComp /> */}
       <br />
       <br />
       <br />
