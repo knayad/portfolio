@@ -28,7 +28,6 @@ const Home = () => {
         </Col>{" "}
         <Col>
           <br />
-          {/* <img alt="Skull with roses" src={skull} /> */}
           <img id="sup" alt="sup?" src={sup} />
           <p id="my-spiel">
             I am a full stack web developer with an interest in data science.
