@@ -3,10 +3,9 @@ import { Container } from "react-bootstrap";
 // assets
 import Star from "../assets/pages/bright-yellowstar-svgrepo-com.svg";
 // components
-import ReviewDetailsTest from "../components/ReviewsDetailsTest";
+import ReviewDetailsTest from "../components/ReviewsDetails";
 import ReviewForm from "../components/ReviewForm";
 import TypeWriter from "../components/TypeWriter";
-//
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
@@ -40,12 +39,13 @@ const Reviews = () => {
       <br />
       <br />
       <Container className="review-list-test">
-        {reviews.map((review) => (
-          <Container className="view-review" key={review._id}>
-            {/* review={review} allows access to the props in the component */}
-            <ReviewDetailsTest review={review} />
-          </Container>
-        ))}
+        {reviews &&
+          reviews.map((review) => (
+            <Container className="view-review" key={review._id}>
+              {/* review={review} allows access to the props in the component */}
+              <ReviewDetailsTest review={review} />
+            </Container>
+          ))}
       </Container>
       <ReviewForm />
     </Container>

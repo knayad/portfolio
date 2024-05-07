@@ -40,7 +40,6 @@ export default function Repositories() {
       <br />
 
       {projects.map((i) => {
-        console.log(i);
         return (
           <Row className="project-row" key={i.name}>
             <Col>{i.name}</Col>
