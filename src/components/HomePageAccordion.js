@@ -40,20 +40,12 @@ function HomePageAccordion() {
           <br />
           <Row className="skillIconG2P">
             <Col>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/javascript"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">
                 <FaJs title="JavaScript" />
               </a>
             </Col>
             <Col>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
                 <FaCss3Alt title="CSS" />
               </a>
             </Col>
@@ -61,20 +53,12 @@ function HomePageAccordion() {
           <TbBrandJavascript title="JavaScript" />
         </Col> */}
             <Col>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
                 <FaHtml5 title="HTML" />
               </a>
             </Col>
             <Col>
-              <a
-                href="https://www.python.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.python.org/">
                 <FaPython title="Python" />
               </a>
             </Col>
@@ -90,25 +74,17 @@ function HomePageAccordion() {
           <br />
           <Row className="skillIconP2G">
             <Col>
-              <a href="https://react.dev/" rel="noreferrer">
+              <a href="https://react.dev/">
                 <RiReactjsFill title="React" />
               </a>
             </Col>
             <Col>
-              <a
-                href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">
                 <FaBootstrap title="Bootstrap" />
               </a>
             </Col>
             <Col>
-              <a
-                href="https://www.python.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.python.org/">
                 <FaGithub title="GitHub" />
               </a>
             </Col>

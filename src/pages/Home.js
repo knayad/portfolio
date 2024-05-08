@@ -1,5 +1,4 @@
-import React from "react";
-// import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 // import Button from "react-bootstrap/Button";
 import { Col, Row } from "react-bootstrap";
@@ -11,22 +10,22 @@ import ModalComponent from "../components/ModalComponent";
 import MySpline from "../components/MySpline";
 
 const Home = () => {
-  // useEffect(() => {
-  //   const fetchReviews = async () => {
-  //     const response = await fetch("/");
-  //     const json = await response.json();
+  useEffect(() => {
+    const fetchAPI = async () => {
+      const response = await fetch("/");
+      const json = await response.json();
 
-  //     if (response.ok) {
-  //       console.log("initialized");
-  //       console.log(json);
-  //     }
-  //     if (!response.ok) {
-  //       console.error();
-  //     }
-  //   };
+      if (response.ok) {
+        console.log("initialized");
+        console.log(json);
+      }
+      if (!response.ok) {
+        console.error();
+      }
+    };
 
-  //   fetchReviews();
-  // }, []);
+    fetchAPI();
+  }, []);
   return (
     <Container>
       <Row>
