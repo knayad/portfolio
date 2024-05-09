@@ -7,20 +7,14 @@ import ReviewDetailsTest from "../components/ReviewsDetails";
 import ReviewForm from "../components/ReviewForm";
 import TypeWriter from "../components/TypeWriter";
 
-import axios from "axios";
-import { API_URL } from "../context/reviewsContext";
-
-axios.defaults.withCredentials = true;
-
-// can add
-// axios.get(`${API_URL}/api/reviews`);
-
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
     const fetchReviews = async () => {
-      const response = await fetch(axios.get(`${API_URL}/api/reviews`));
+      const response = await fetch(
+        "https://portfolio-api-op4o.onrender.com/api/reviews"
+      );
       const json = await response.json();
 
       if (response.ok) {
