@@ -22,11 +22,14 @@ const ReviewForm = () => {
 
     const review = { title, author, body };
 
-    const response = await fetch("/api/reviews/", {
-      method: "POST",
-      body: JSON.stringify(review),
-      headers: { "Content-Type": "application/json" },
-    });
+    const response = await fetch(
+      "https://portfolio-api-op4o.onrender.com/api/reviews/",
+      {
+        method: "POST",
+        body: JSON.stringify(review),
+        headers: { "Content-Type": "application/json" },
+      }
+    );
 
     const json = await response.json();
 
