@@ -112,22 +112,14 @@ function HomePageAccordion() {
             <br />
             <br />
             <Col className="projectGIFS">
-              <a
-                href="https://github.com/knayad/basicAnimationToMaps"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://github.com/knayad/basicAnimationToMaps">
                 <img src={busGiphy} alt="bus route map" />
               </a>
             </Col>
             <Col> </Col>
             <Col>
               {" "}
-              <a
-                href="https://github.com/knayad/following-eyes"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://github.com/knayad/following-eyes">
                 <img src={eyesGiphy} alt="eyes Giphy" />
               </a>
             </Col>
@@ -137,21 +129,13 @@ function HomePageAccordion() {
 
           <Row>
             <Col>
-              <a
-                href="https://github.com/knayad/numberRun"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://github.com/knayad/numberRun">
                 <img src={numberRun} alt="number run" />
               </a>
             </Col>
             <Col> </Col>
             <Col>
-              <a
-                href="https://github.com/knayad/pacManFactory"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://github.com/knayad/pacManFactory">
                 <img src={pacMan} alt="pacMan" />
               </a>
             </Col>

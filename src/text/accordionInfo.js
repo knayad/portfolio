@@ -14,11 +14,7 @@ const ProgrammingInfo = (
       </li>
       <li>
         {" "}
-        <a
-          href="https://knayad.github.io/nadia.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://knayad.github.io/nadia.github.io/">
           {" "}
           My first (vanilla) website - NOT UPDATED
         </a>{" "}
@@ -48,11 +44,7 @@ const Content = (
       <li>Catch 22</li>
       <p>
         A (comical) dialogue about shitty things that usually come with a catch.
-        <a
-          href="https://open.spotify.com/show/6riGUEJhRunKWVWlKeSZTm?si=8f0cb8934a1f4829"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://open.spotify.com/show/6riGUEJhRunKWVWlKeSZTm?si=8f0cb8934a1f4829">
           <p>Find it on Spotify.</p>
         </a>
       </p>
