@@ -137,8 +137,8 @@
 
 /* reviews */
 .review-list-test {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+  /* display: grid;
+  grid-template-columns: 2fr 2fr; */
   gap: 10px;
   text-align: left;
 }
