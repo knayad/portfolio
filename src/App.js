@@ -2,7 +2,8 @@ import "./App.css";
 import "./css/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 //components
 // import NavbarComp from "./components/NavbarComp";
@@ -24,18 +25,18 @@ function App() {
       <br />
       <br />
       <br />
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="portfolio" element={<Home />} />
-          <Route path="reviews" element={<Reviews />} />
-          <Route path="repos" element={<Repos />} />
-          <Route path="about" element={<About />} />
-          <Route path="hire" element={<HireMe />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      {/* <BrowserRouter> */}
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="home" element={<Home />} />
+        <Route path="portfolio" element={<Home />} />
+        <Route path="reviews" element={<Reviews />} />
+        <Route path="repos" element={<Repos />} />
+        <Route path="about" element={<About />} />
+        <Route path="hire" element={<HireMe />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      {/* </BrowserRouter> */}
       <footer>
         <Footer />
       </footer>
