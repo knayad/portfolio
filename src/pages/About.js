@@ -45,8 +45,8 @@ const About = () => {
               I love travel, jokes, food, learning, and enjoying the company of
               myself and others.
             </p>
-            <span>
-              {/* <Link
+            {/* <span> */}
+            {/* <Link
                 to="reviews"
                 spy={true}
                 smooth={true}
@@ -55,9 +55,9 @@ const About = () => {
               >
                 <Button href="reviews">REVIEWS</Button>{" "}
               </Link> */}
-              <Button href="reviews">REVIEWS</Button>{" "}
+            {/* <Button href="reviews">REVIEWS</Button>{" "}
               <Button href="hire">HIRE</Button>
-            </span>
+            </span> */}
             <br />
             <br />
           </Col>
@@ -118,6 +118,8 @@ const About = () => {
               {AboutMeList}
             </Col>
             <Col>
+              <br />
+              <br />
               <br />
               <br />
               <br />

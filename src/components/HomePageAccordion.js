@@ -40,12 +40,20 @@ function HomePageAccordion() {
           <br />
           <Row className="skillIconG2P">
             <Col>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaJs title="JavaScript" />
               </a>
             </Col>
             <Col>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaCss3Alt title="CSS" />
               </a>
             </Col>
@@ -53,12 +61,20 @@ function HomePageAccordion() {
           <TbBrandJavascript title="JavaScript" />
         </Col> */}
             <Col>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaHtml5 title="HTML" />
               </a>
             </Col>
             <Col>
-              <a href="https://www.python.org/">
+              <a
+                href="https://www.python.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaPython title="Python" />
               </a>
             </Col>
@@ -74,17 +90,25 @@ function HomePageAccordion() {
           <br />
           <Row className="skillIconP2G">
             <Col>
-              <a href="https://react.dev/">
+              <a href="https://react.dev/" rel="noreferrer">
                 <RiReactjsFill title="React" />
               </a>
             </Col>
             <Col>
-              <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">
+              <a
+                href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaBootstrap title="Bootstrap" />
               </a>
             </Col>
             <Col>
-              <a href="https://www.python.org/">
+              <a
+                href="https://www.python.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub title="GitHub" />
               </a>
             </Col>
@@ -112,14 +136,22 @@ function HomePageAccordion() {
             <br />
             <br />
             <Col className="projectGIFS">
-              <a href="https://github.com/knayad/basicAnimationToMaps">
+              <a
+                href="https://github.com/knayad/basicAnimationToMaps"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={busGiphy} alt="bus route map" />
               </a>
             </Col>
             <Col> </Col>
             <Col>
               {" "}
-              <a href="https://github.com/knayad/following-eyes">
+              <a
+                href="https://github.com/knayad/following-eyes"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={eyesGiphy} alt="eyes Giphy" />
               </a>
             </Col>
@@ -129,13 +161,21 @@ function HomePageAccordion() {
 
           <Row>
             <Col>
-              <a href="https://github.com/knayad/numberRun">
+              <a
+                href="https://github.com/knayad/numberRun"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={numberRun} alt="number run" />
               </a>
             </Col>
             <Col> </Col>
             <Col>
-              <a href="https://github.com/knayad/pacManFactory">
+              <a
+                href="https://github.com/knayad/pacManFactory"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={pacMan} alt="pacMan" />
               </a>
             </Col>
