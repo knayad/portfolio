@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useReviewsContext } from "../hooks/useReviewsContext";
 import { Container } from "react-bootstrap";
 // assets
 import Star from "../assets/pages/bright-yellowstar-svgrepo-com.svg";
@@ -8,7 +9,7 @@ import ReviewForm from "../components/ReviewForm";
 import TypeWriter from "../components/TypeWriter";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
+  const { reviews, dispatch } = useReviewsContext();
 
   useEffect(() => {
     const fetchReviews = async () => {
@@ -18,7 +19,7 @@ const Reviews = () => {
       const json = await response.json();
 
       if (response.ok) {
-        setReviews(json);
+        dispatch({ type: "SET_REVIEWS", payload: json });
       }
       if (!response.ok) {
         console.error();
@@ -26,7 +27,7 @@ const Reviews = () => {
     };
 
     fetchReviews();
-  }, []);
+  }, [dispatch]);
 
   return (
     <Container>

@@ -19,7 +19,7 @@ export const ReviewsContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reviewsReducer, { reviews: null });
 
   return (
-    <ReviewsContext.Provider value={{ state, dispatch }}>
+    <ReviewsContext.Provider value={{ ...state, dispatch }}>
       {children}
     </ReviewsContext.Provider>
   );

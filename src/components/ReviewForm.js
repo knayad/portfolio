@@ -1,21 +1,23 @@
 import { useState } from "react";
-
+import { useReviewsContext } from "../hooks/useReviewsContext";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Form from "react-bootstrap/Form";
 
 const ReviewForm = () => {
+  const { dispatch } = useReviewsContext();
+
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState();
   const [body, setBody] = useState();
   const [error, setError] = useState(null);
 
-  const handleReload = () => {
-    setTimeout(function () {
-      window.location.reload();
-    }, 3000);
-  };
+  // const handleReload = () => {
+  //   setTimeout(function () {
+  //     window.location.reload();
+  //   }, 3000);
+  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -44,6 +46,8 @@ const ReviewForm = () => {
       setTitle("");
       setAuthor("");
       setBody("");
+
+      dispatch({ type: "CREATE_REVIEW", payload: json });
     }
   };
 
@@ -104,7 +108,7 @@ const ReviewForm = () => {
           </Form.Group>
 
           <Button
-            onClick={handleReload}
+            // onClick={handleReload}
             variant="outline-primary"
             type="submit"
           >
