@@ -8,7 +8,13 @@ I hope this website gives you the opportunity to learn a little bit about me!
 
 ## Run it locally
 
-In the project directory, you can run:
+Use a code editor (or don't), then in the project directory, you can run:
+
+### `npm install` or `npm i`
+
+This will install the project dependencies in a node_modules folder.
+
+Then in the project directory run:
 
 ### `npm start`
 
