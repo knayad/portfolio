@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8f7bf4b8.css",
-    "main.js": "/portfolio/static/js/main.e8c54bba.js",
+    "main.css": "/portfolio/static/css/main.0bfc0a09.css",
+    "main.js": "/portfolio/static/js/main.113aabd4.js",
     "static/js/208.680419e2.chunk.js": "/portfolio/static/js/208.680419e2.chunk.js",
     "static/js/293.8831f74b.chunk.js": "/portfolio/static/js/293.8831f74b.chunk.js",
     "static/js/917.8bce74f9.chunk.js": "/portfolio/static/js/917.8bce74f9.chunk.js",
@@ -19,8 +19,8 @@
     "static/media/heart.png": "/portfolio/static/media/heart.31bf59748b533506b7df.png",
     "static/media/bright-yellowstar-svgrepo-com.svg": "/portfolio/static/media/bright-yellowstar-svgrepo-com.0ecef33edacdd7f8072667d84e578b94.svg",
     "index.html": "/portfolio/index.html",
-    "main.8f7bf4b8.css.map": "/portfolio/static/css/main.8f7bf4b8.css.map",
-    "main.e8c54bba.js.map": "/portfolio/static/js/main.e8c54bba.js.map",
+    "main.0bfc0a09.css.map": "/portfolio/static/css/main.0bfc0a09.css.map",
+    "main.113aabd4.js.map": "/portfolio/static/js/main.113aabd4.js.map",
     "208.680419e2.chunk.js.map": "/portfolio/static/js/208.680419e2.chunk.js.map",
     "293.8831f74b.chunk.js.map": "/portfolio/static/js/293.8831f74b.chunk.js.map",
     "917.8bce74f9.chunk.js.map": "/portfolio/static/js/917.8bce74f9.chunk.js.map",
@@ -31,7 +31,7 @@
     "23.63366c8d.chunk.js.map": "/portfolio/static/js/23.63366c8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f7bf4b8.css",
-    "static/js/main.e8c54bba.js"
+    "static/css/main.0bfc0a09.css",
+    "static/js/main.113aabd4.js"
   ]
 }
