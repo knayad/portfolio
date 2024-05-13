@@ -30,7 +30,7 @@ const Reviews = () => {
   }, [dispatch]);
 
   return (
-    <Container>
+    <Container fluid>
       <h1 id="typeEffect">
         <TypeWriter text="Reviews" delay={100} />
       </h1>

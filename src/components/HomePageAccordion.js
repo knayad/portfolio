@@ -1,4 +1,5 @@
 import Accordion from "react-bootstrap/Accordion";
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
@@ -38,47 +39,51 @@ function HomePageAccordion() {
           <br />
           <br />
           <br />
-          <Row className="skillIconG2P">
-            <Col>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/javascript"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaJs title="JavaScript" />
-              </a>
-            </Col>
-            <Col>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaCss3Alt title="CSS" />
-              </a>
-            </Col>
-            {/* <Col>
+          <Container fluid>
+            <Row className="skillIconG2P">
+              <Col>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Container>
+                    <FaJs title="JavaScript" />
+                  </Container>
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaCss3Alt title="CSS" />
+                </a>
+              </Col>
+              {/* <Col>
           <TbBrandJavascript title="JavaScript" />
         </Col> */}
-            <Col>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaHtml5 title="HTML" />
-              </a>
-            </Col>
-            <Col>
-              <a
-                href="https://www.python.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaPython title="Python" />
-              </a>
-            </Col>
-          </Row>
+              <Col>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaHtml5 title="HTML" />
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaPython title="Python" />
+                </a>
+              </Col>
+            </Row>
+          </Container>
           <br />
           <br />
           <br />
@@ -88,31 +93,33 @@ function HomePageAccordion() {
           <br />
           <br />
           <br />
-          <Row className="skillIconP2G">
-            <Col>
-              <a href="https://react.dev/" rel="noreferrer">
-                <RiReactjsFill title="React" />
-              </a>
-            </Col>
-            <Col>
-              <a
-                href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaBootstrap title="Bootstrap" />
-              </a>
-            </Col>
-            <Col>
-              <a
-                href="https://www.python.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaGithub title="GitHub" />
-              </a>
-            </Col>
-          </Row>
+          <Container fluid>
+            <Row className="skillIconP2G">
+              <Col>
+                <a href="https://react.dev/" rel="noreferrer">
+                  <RiReactjsFill title="React" />
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaBootstrap title="Bootstrap" />
+                </a>
+              </Col>
+              <Col>
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub title="GitHub" />
+                </a>
+              </Col>
+            </Row>
+          </Container>
           <br />
           <br />
           <br />

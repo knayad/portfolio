@@ -6,14 +6,13 @@ import { Col, Row } from "react-bootstrap";
 import sup from "../assets/pages/bastrad-sup.png";
 
 import HomePageAccordion from "../components/HomePageAccordion";
-import ModalComponent from "../components/ModalComponent";
+// import ModalComponent from "../components/ModalComponent";
 import MySpline from "../components/MySpline";
 
 const Home = () => {
   return (
     <Container>
       <Row>
-        {/* <TypeWriter text="Welcome" delay={150} /> */}
         <Col className="landing-page-col">
           <Container fluid className="nameTagSize">
             <h1 id="my-name-tag-hello">
@@ -48,7 +47,7 @@ const Home = () => {
         <HomePageAccordion />
       </Row>
       <MySpline />
-      <ModalComponent />
+      {/* <ModalComponent /> */}
     </Container>
   );
 };

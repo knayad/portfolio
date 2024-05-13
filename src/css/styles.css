@@ -231,9 +231,6 @@
   text-align: left;
 }
 
-#aboutSkull {
-}
-
 /* slider
 .slider-images {
   width: ;
@@ -242,52 +239,10 @@
   height: fit-content;
 } */
 
-.slide img {
-  width: auto;
-  margin: 0 auto;
-}
-
-.slide {
-  transform: scale(0.2);
-  transition: transform 300ms;
-  opacity: 0.5;
-}
-
-.activeSlide {
-  transform: scale(1.1);
-  transition: transform 300ms;
-  opacity: 1;
-}
-
-.arrow {
-  color: #d22971;
-  position: absolute;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.arrow svg {
-  transition: color 300ms;
-}
-
-.arrow svg:hover {
-  color: #3629d2;
-}
-
-.next {
-  right: 0%;
-  top: 50%;
-}
-
-.prev {
-  left: 0%;
-  top: 50%;
-}
-
 .skillIconG2P svg {
   transform: scale(10);
   color: #29d28a;
-  position: absolute;
+  /* position: absolute; */
   cursor: pointer;
   opacity: 0.5;
 }
@@ -300,7 +255,7 @@
 .skillIconP2G svg {
   transform: scale(10);
   color: #d22971;
-  position: absolute;
+  /* position: absolute; */
   cursor: pointer;
   opacity: 0.5;
 }
@@ -308,4 +263,9 @@
 .skillIconP2G svg:hover {
   color: #29d28a;
   opacity: 1;
+}
+
+.stars {
+  height: 55;
+  width: 55;
 }
