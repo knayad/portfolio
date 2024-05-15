@@ -49,17 +49,17 @@ function ModalComponent() {
             </li>
           </ul>
           <strong>
-            <p> It also uses Spline, GitHub's API, and React Bootstrap.</p>
+            <p> It also uses Spline and React Bootstrap.</p>
           </strong>
           <ul>
             <li>
               <strong>Spline:</strong> a 3D design software that can create
               interactive models.
             </li>
-            <li>
+            {/* <li>
               <strong>GitHub's API: </strong>a REST API I used to pull and
               display repositories.
-            </li>
+            </li> */}
             <li>
               <strong>React Bootstrap:</strong> a library that rebuilds
               Bootstrap components as true React components.
