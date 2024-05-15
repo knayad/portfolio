@@ -7,7 +7,7 @@ export default function Repositories() {
   );
 
   return (
-    <Container className="projects">
+    <Container fluid className="projects">
       <Row>
         <h2>
           This uses GitHub's API to pull some recently created repositories.{" "}

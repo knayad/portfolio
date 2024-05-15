@@ -14,6 +14,7 @@ import {
 import { RiReactjsFill } from "react-icons/ri";
 
 import TypeWriter from "./TypeWriter";
+// import Repositories from "./Repositories";
 
 import busGiphy from "../assets/pages/MIT-bus-stops-giphy.gif";
 import pacMan from "../assets/pages/pacMan factory- giphy.gif";
@@ -23,7 +24,6 @@ import numberRun from "../assets/pages/numberRun-giphy.gif";
 import About from "../pages/About";
 import HireMe from "../pages/HireMe";
 import Reviews from "../pages/Reviews";
-import Repos from "../pages/Repos";
 
 function HomePageAccordion() {
   return (
@@ -225,16 +225,16 @@ function HomePageAccordion() {
           <Reviews />
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="5">
+      {/* <Accordion.Item eventKey="5">
         <Accordion.Header>
           <h1 className="homeH1">
             <TypeWriter text="REPOSITORIES" delay={150} />
           </h1>
         </Accordion.Header>
         <Accordion.Body>
-          <Repos />
+          <Repositories />
         </Accordion.Body>
-      </Accordion.Item>
+      </Accordion.Item> */}
     </Accordion>
   );
 }
