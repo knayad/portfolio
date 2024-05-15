@@ -2,7 +2,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import {
   FaCss3Alt,
   FaHtml5,
@@ -187,9 +187,9 @@ function HomePageAccordion() {
               </a>
             </Col>
           </Row>
-          <Button variant="success" size="sm" href="repos">
+          {/* <Button variant="success" size="sm" href="repos">
             MORE PROJECTS...
-          </Button>
+          </Button> */}
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
