@@ -6,7 +6,7 @@ import { Col, Row } from "react-bootstrap";
 import sup from "../assets/pages/bastrad-sup.png";
 
 import HomePageAccordion from "../components/HomePageAccordion";
-// import ModalComponent from "../components/ModalComponent";
+import ModalComponent from "../components/ModalComponent";
 
 const Home = () => {
   return (
@@ -45,7 +45,7 @@ const Home = () => {
       <Row>
         <HomePageAccordion />
       </Row>
-      {/* <ModalComponent /> */}
+      <ModalComponent />
     </Container>
   );
 };
