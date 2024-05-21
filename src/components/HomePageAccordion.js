@@ -16,18 +16,21 @@ import { RiReactjsFill } from "react-icons/ri";
 import TypeWriter from "./TypeWriter";
 // import Repositories from "./Repositories";
 
-import busGiphy from "../assets/pages/MIT-bus-stops-giphy.gif";
-import pacMan from "../assets/pages/pacMan factory- giphy.gif";
-import eyesGiphy from "../assets/pages/giphy-eyes.gif";
-import numberRun from "../assets/pages/numberRun-giphy.gif";
+import NounHero from "../assets/projects/NounHero.png";
+import NadiaPortfolio from "../assets/projects/NadiaPortfolio.png";
+import ReviewsAPI from "../assets/projects/ReviewsAPI.png";
+import pythonPasswords from "../assets/projects/pythonPasswords.png";
+
+import busGiphy from "../assets/projects/MIT-bus-stops-giphy.gif";
 
 import About from "../pages/About";
 import HireMe from "../pages/HireMe";
 import Reviews from "../pages/Reviews";
+import MySpline from "./MySpline";
 
 function HomePageAccordion() {
   return (
-    <Accordion defaultActiveKey="0" flush>
+    <Accordion defaultActiveKey={["0", "6"]} flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>
           <h1 className="homeH1">
@@ -136,57 +139,152 @@ function HomePageAccordion() {
         </Accordion.Header>
         <Accordion.Body>
           <br />
-          <br />
-          <br />
+
           <Row>
-            <br />
-            <br />
-            <br />
+            <Col>
+              <a
+                href="https://github.com/knayad/blog"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={NounHero}
+                  className="projectImgs"
+                  alt="Noun Blog site"
+                />
+              </a>
+            </Col>
+            <Col>
+              <h2>
+                <i>Noun</i>
+              </h2>
+              <strong>A MERN STACK BLOG SITE USING TAILWIND CSS</strong>
+              <br />
+              <br />
+              <p>
+                {" "}
+                Client-side blog site using Tailwind CSS and the MERN stack{" "}
+                <strong>MongoDB, Express.js, React.js, and Node.js</strong>.
+                Created a responsive website for desktop, tablets, and mobile
+                using custom React components.{" "}
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <a
+                href="https://github.com/knayad/portfolio-api"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={ReviewsAPI}
+                  alt="backend MERN stack portfolio site for peer reviews"
+                  className="projectImgs"
+                />
+              </a>
+            </Col>
+            <Col>
+              <h2>
+                <i>Portfolio API</i>
+              </h2>
+              <p>
+                Connected MongoDB to the frontend of the project using Mongoose.
+                All CRUD routes were created, limited authorization was created
+                to restrict use for only retrieval and posting peer reviews.
+                React context and React reducer were used to update state for
+                new posts. <br />
+                <br />
+                Check out the Reviews section of this page for more!
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <a
+                href="https://github.com/knayad/portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={NadiaPortfolio}
+                  alt="frontend MERN stack portfolio site"
+                  className="projectImgs"
+                />
+              </a>
+            </Col>
+            <Col>
+              <h2>
+                <i>Portfolio</i>
+              </h2>
+              <strong>MERN STACK STATIC SITE ON GITHUB PAGES</strong>
+              <br />
+              <br />
+              <p>
+                Created a static portfolio on GitHub Pages, using the MERN
+                stack. Utilized JavaScript (ES6) for custom functions.
+                Incorporated Google Fonts, Fonts Awesome, React Icons, Spline,
+                React PDF Viewer, and React Bootstrap.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <a
+                href="https://github.com/knayad/pythonPasswords"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={pythonPasswords}
+                  alt="python password generator"
+                  className="projectImgs"
+                />
+              </a>
+            </Col>
+            <Col>
+              <h2>
+                <i>Python Password Generator</i>
+              </h2>
+              <p>
+                Passwords are the linchpin for many programs to keep your
+                information safe. Generally, the more complex a password, the
+                safer your information. However, many people re-use passwords
+                and only make minor modifications to them. This can compromise
+                the security of the applications we use by putting the
+                authentication process at risk. This python project aims to
+                generate more complex passwords.
+              </p>
+            </Col>
+          </Row>
+          <Row>
             <Col className="projectGIFS">
               <a
                 href="https://github.com/knayad/basicAnimationToMaps"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={busGiphy} alt="bus route map" />
+                <img
+                  src={busGiphy}
+                  alt="bus route map"
+                  className="projectImgs"
+                />
               </a>
             </Col>
-            <Col> </Col>
             <Col>
-              {" "}
-              <a
-                href="https://github.com/knayad/following-eyes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={eyesGiphy} alt="eyes Giphy" />
-              </a>
+              <h2>
+                <i>Mapbox API Bus Route</i>
+              </h2>
+              <p>
+                Utilizes the Mapbox library and API, JavaScript, CSS, and HTML
+                to render a map on a web page to show real-time data. This
+                project is, as such, an animation. MBTA bus data: stops between
+                Harvard and MIT with an animated marker on the map to highlight
+                the bus routes.
+              </p>
             </Col>
           </Row>
-          <br />
-          <br />
 
-          <Row>
-            <Col>
-              <a
-                href="https://github.com/knayad/numberRun"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={numberRun} alt="number run" />
-              </a>
-            </Col>
-            <Col> </Col>
-            <Col>
-              <a
-                href="https://github.com/knayad/pacManFactory"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={pacMan} alt="pacMan" />
-              </a>
-            </Col>
-          </Row>
           {/* <Button variant="success" size="sm" href="repos">
             MORE PROJECTS...
           </Button> */}
@@ -235,6 +333,16 @@ function HomePageAccordion() {
           <Repositories />
         </Accordion.Body>
       </Accordion.Item> */}
+      <Accordion.Item eventKey="6" alwaysOpen>
+        <Accordion.Header>
+          <h1 className="homeH1">
+            <TypeWriter text="SPLINE" delay={150} />
+          </h1>
+        </Accordion.Header>
+        <Accordion.Body>
+          <MySpline />
+        </Accordion.Body>
+      </Accordion.Item>
     </Accordion>
   );
 }
