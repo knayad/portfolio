@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useReviewsContext } from "../hooks/useReviewsContext";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 // assets
 import Star from "../assets/pages/bright-yellowstar-svgrepo-com.svg";
 // components

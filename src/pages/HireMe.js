@@ -1,4 +1,5 @@
-import { Button, Container } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
 import Typewriter from "../components/TypeWriter";
 
 import { Worker } from "@react-pdf-viewer/core";

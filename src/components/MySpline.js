@@ -1,10 +1,14 @@
-import Spline from "@splinetool/react-spline";
-import { Container } from "react-bootstrap";
+import React, { Suspense } from "react";
+import Container from "react-bootstrap/Container";
+
+const Spline = React.lazy(() => import("@splinetool/react-spline"));
 
 export default function MySpline() {
   return (
     <Container>
-      <Spline scene="https://prod.spline.design/YzEy5lMIH75ywh5S/scene.splinecode" />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Spline scene="https://prod.spline.design/YzEy5lMIH75ywh5S/scene.splinecode" />
+      </Suspense>
     </Container>
   );
 }

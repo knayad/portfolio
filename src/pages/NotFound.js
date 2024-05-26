@@ -1,4 +1,5 @@
-import { Container, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
 import monster from "../assets/pages/monster.png";

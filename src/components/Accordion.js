@@ -168,6 +168,15 @@ function HomePageAccordion() {
                 Created a responsive website for desktop, tablets, and mobile
                 using custom React components.{" "}
               </p>
+              See the look
+              <a
+                href="https://blog-afcj.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                here.
+              </a>
             </Col>
           </Row>
           <Row>
@@ -333,7 +342,7 @@ function HomePageAccordion() {
           <Repositories />
         </Accordion.Body>
       </Accordion.Item> */}
-      <Accordion.Item eventKey="6" alwaysOpen>
+      <Accordion.Item eventKey="6">
         <Accordion.Header>
           <h1 className="homeH1">
             <TypeWriter text="SPLINE" delay={150} />

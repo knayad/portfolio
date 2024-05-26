@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import Repositories from "../components/Repositories";
 
 import TypeWriter from "../components/TypeWriter";

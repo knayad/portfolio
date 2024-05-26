@@ -1,11 +1,12 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 // import Button from "react-bootstrap/Button";
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 import sup from "../assets/pages/bastrad-sup.png";
 
-import HomePageAccordion from "../components/HomePageAccordion";
+import HomePageAccordion from "../components/Accordion";
 import ModalComponent from "../components/ModalComponent";
 
 const Home = () => {

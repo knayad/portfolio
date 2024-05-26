@@ -1,5 +1,7 @@
 import Container from "react-bootstrap/Container";
-import { Button, Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 
 import { useEffect, useState } from "react";
 import Typewriter from "../components/TypeWriter";
@@ -76,26 +78,23 @@ const About = () => {
                   </p>
                 </li>
                 <li>
-                  <b>Languages:</b>{" "}
-                  <p>
-                    I want to be a polygot, but I lack the confidence to speak!
-                    My approximate CEFR/ or general levels are as follows:
-                    <ul>
-                      <li>
-                        French: ~A2 (everyday topics) to ~B1 (complex ideas).
-                      </li>
-                      <li>
-                        Spanish: ~A1 (basic interactions) to ~A2 (everday
-                        topics).
-                      </li>
-                      <li>Japanese: ~A1 (basic interactions).</li>
-                      <li>
-                        Arabic: Reading, writing, essential phrases, and grammar
-                        concepts.
-                      </li>
-                      <li>Portuguese: Essential phrases, simple grammar.</li>
-                    </ul>
-                  </p>
+                  <b>Languages:</b>I want to be a polygot, but I lack the
+                  confidence to speak! My approximate CEFR/ or general levels
+                  are as follows:
+                  <ul>
+                    <li>
+                      French: ~A2 (everyday topics) to ~B1 (complex ideas).
+                    </li>
+                    <li>
+                      Spanish: ~A1 (basic interactions) to ~A2 (everday topics).
+                    </li>
+                    <li>Japanese: ~A1 (basic interactions).</li>
+                    <li>
+                      Arabic: Reading, writing, essential phrases, and grammar
+                      concepts.
+                    </li>
+                    <li>Portuguese: Essential phrases, simple grammar.</li>
+                  </ul>
                 </li>
                 <li>
                   <b>Coding: </b>
