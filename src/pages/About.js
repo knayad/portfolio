@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 
 import { useEffect, useState } from "react";
-import Typewriter from "../components/TypeWriter";
+// import Typewriter from "../components/TypeWriter";
 
 import skull from "../assets/pages/skull.png";
 import { AboutMeList } from "../text/aboutMeList";
@@ -32,7 +32,7 @@ const About = () => {
     <Container id="particle">
       <br />
       <h1 id="typeEffect">
-        <Typewriter text="About Me" delay={200} />
+        {/* <Typewriter text="About Me" delay={200} /> */}
       </h1>
       <br />
       <Container>

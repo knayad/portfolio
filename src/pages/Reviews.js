@@ -6,7 +6,7 @@ import Star from "../assets/pages/bright-yellowstar-svgrepo-com.svg";
 // components
 import ReviewDetailsTest from "../components/ReviewsDetails";
 import ReviewForm from "../components/ReviewForm";
-import TypeWriter from "../components/TypeWriter";
+// import TypeWriter from "../components/TypeWriter";
 
 const Reviews = () => {
   const { reviews, dispatch } = useReviewsContext();
@@ -31,9 +31,7 @@ const Reviews = () => {
 
   return (
     <Container fluid>
-      <h1 id="typeEffect">
-        <TypeWriter text="Reviews" delay={100} />
-      </h1>
+      <h1 id="typeEffect">{/* <TypeWriter text="Reviews" delay={100} /> */}</h1>
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
