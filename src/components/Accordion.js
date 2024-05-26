@@ -139,7 +139,10 @@ function HomePageAccordion() {
         </Accordion.Header>
         <Accordion.Body>
           <br />
-
+          <p id="aboutMeBlurb">
+            Click the thumbnail to checkout the associated Github Repo.
+          </p>
+          <br />
           <Row>
             <Col>
               <a
@@ -168,13 +171,12 @@ function HomePageAccordion() {
                 Created a responsive website for desktop, tablets, and mobile
                 using custom React components.{" "}
               </p>
-              See the look
+              Get a sneak peek{" "}
               <a
                 href="https://blog-afcj.onrender.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                {" "}
                 here.
               </a>
             </Col>
