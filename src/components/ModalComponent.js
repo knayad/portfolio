@@ -34,8 +34,8 @@ function ModalComponent() {
           </strong>
           <ul>
             <li>
-              <strong>MongoDB:</strong> is used to as the document database to
-              pull and post reviews.
+              <strong>MongoDB:</strong> is used as the document database to pull
+              and post reviews.
             </li>
             <li>
               <strong>Express.js:</strong> Node.js web framework.
@@ -67,6 +67,12 @@ function ModalComponent() {
           </ul>
         </Modal.Body>
         <Modal.Footer>
+          <p>
+            {" "}
+            <strong>This website works best on desktop devices.</strong>
+            <br /> If you are viewing on a mobile device, please consider
+            changing the view settings to "Desktop site."
+          </p>
           {/* <Button variant="secondary" onClick={handleClose}>
             Close
           </Button> */}

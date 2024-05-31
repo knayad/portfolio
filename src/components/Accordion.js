@@ -139,9 +139,10 @@ function HomePageAccordion() {
         </Accordion.Header>
         <Accordion.Body>
           <br />
-          <p id="aboutMeBlurb">
-            Click the thumbnail to checkout the associated Github Repo.
-          </p>
+          <h2>
+            Click the thumbnail to look at the associated Github repository.
+          </h2>
+          <br />
           <br />
           <Row>
             <Col>
@@ -295,7 +296,6 @@ function HomePageAccordion() {
               </p>
             </Col>
           </Row>
-
           {/* <Button variant="success" size="sm" href="repos">
             MORE PROJECTS...
           </Button> */}

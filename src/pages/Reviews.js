@@ -31,7 +31,7 @@ const Reviews = () => {
 
   return (
     <Container fluid>
-      <h1 id="typeEffect">{/* <TypeWriter text="Reviews" delay={100} /> */}</h1>
+      <h1>Reviews</h1>
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />

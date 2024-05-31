@@ -122,9 +122,9 @@ const ReviewForm = () => {
           <br />
           <br />
         </Form>
-        <small>
+        {/* <small>
           <b>*Inappropriate comments will be removed.</b>
-        </small>
+        </small> */}
         <br />
         <br />
       </Row>
