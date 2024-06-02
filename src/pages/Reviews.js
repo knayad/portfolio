@@ -31,7 +31,7 @@ const Reviews = () => {
 
   return (
     <Container fluid>
-      <h1>Reviews</h1>
+      <h1>Peer Reviews</h1>
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />
       <img src={Star} alt="star" style={{ height: 55, width: 55 }} />

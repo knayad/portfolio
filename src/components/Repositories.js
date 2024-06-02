@@ -11,10 +11,6 @@ export default function Repositories() {
   return (
     <Container fluid className="projects">
       <Row>
-        <h2>GitHub's API pulls some recent repositories: </h2>{" "}
-      </Row>
-      <br />
-      <Row>
         <Col>
           <h3>
             <b>Project Name</b>
@@ -38,22 +34,21 @@ export default function Repositories() {
       </Row>
       <br />
 
-      {projects.map((i) => {
-        return (
-          <Row className="project-row" key={i.name}>
-            <Col>{i.name}</Col>
-            <Col>{i.language}</Col>
-            <Col>{i.description}</Col>
+      {projects &&
+        projects.map((project) => (
+          <Row className="project-row" key={project.id}>
+            <Col>{project.name}</Col>
+            <Col>{project.language}</Col>
+            <Col>{project.description}</Col>
             <Col>
-              <a href={i.html_url} target="_blank" rel="noreferrer">
-                {i.name}
+              <a href={project.html_url} target="_blank" rel="noreferrer">
+                {project.name}
               </a>
             </Col>
             <br />
             <br />
           </Row>
-        );
-      })}
+        ))}
       <br />
     </Container>
   );

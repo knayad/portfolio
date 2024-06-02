@@ -308,6 +308,7 @@ function HomePageAccordion() {
             </h1>
           </Accordion.Header>
           <Accordion.Body>
+            <h2>GitHub's API pulls some recent repositories: </h2>
             <Repositories />
           </Accordion.Body>
         </Accordion.Item>
