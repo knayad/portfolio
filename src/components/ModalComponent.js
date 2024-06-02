@@ -49,7 +49,7 @@ function ModalComponent() {
             </li>
           </ul>
           <strong>
-            <p> It also uses Spline and React Bootstrap.</p>
+            <p> It also uses:</p>
           </strong>
           <ul>
             <li>
