@@ -1,16 +1,21 @@
 import Container from "react-bootstrap/Container";
-import Repositories from "../components/Repositories";
+import RepoDetails from "../components/Repositories";
 
-import TypeWriter from "../components/TypeWriter";
+import useFetch from "../hooks/useFetch";
 
 const Repos = () => {
+  const { data: projects } = useFetch(
+    "https://api.github.com/users/knayad/repos?sort=created&direction=desc&page=1&per_page=6"
+  );
   return (
     <Container>
-      <h1 id="typeEffect">
-        <TypeWriter text="Repositories" delay={150} />
-      </h1>
-      <br />
-      <Repositories />
+      {projects &&
+        projects.map((project) => (
+          <Container key={project.id}>
+            {/* project={project} allows access to the props in the component */}
+            <RepoDetails repo={project} />
+          </Container>
+        ))}
     </Container>
   );
 };

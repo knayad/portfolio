@@ -11,11 +11,8 @@ export default function Repositories() {
   return (
     <Container fluid className="projects">
       <Row>
-        <h2>
-          This uses GitHub's API to pull some recently created repositories.{" "}
-        </h2>{" "}
+        <h2>GitHub's API pulls some recent repositories: </h2>{" "}
       </Row>
-      <br />
       <br />
       <Row>
         <Col>
@@ -48,7 +45,7 @@ export default function Repositories() {
             <Col>{i.language}</Col>
             <Col>{i.description}</Col>
             <Col>
-              <a href={i.html_url} onClick={window.open()}>
+              <a href={i.html_url} target="_blank" rel="noreferrer">
                 {i.name}
               </a>
             </Col>

@@ -56,10 +56,10 @@ function ModalComponent() {
               <strong>Spline:</strong> a 3D design software that can create
               interactive models.
             </li>
-            {/* <li>
-              <strong>GitHub's API: </strong>a REST API I used to pull and
-              display repositories.
-            </li> */}
+            <li>
+              <strong>GitHub's API: </strong>a REST API used to pull and display
+              repositories.
+            </li>
             <li>
               <strong>React Bootstrap:</strong> a library that rebuilds
               Bootstrap components as true React components.

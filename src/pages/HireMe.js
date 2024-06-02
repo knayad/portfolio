@@ -1,6 +1,5 @@
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Typewriter from "../components/TypeWriter";
 
 import { Worker } from "@react-pdf-viewer/core";
 // Import the main component
@@ -12,11 +11,6 @@ import pdf from "../assets/pages/NadiaAyad.pdf";
 const HireMe = () => {
   return (
     <Container>
-      <h1 id="typeEffect">
-        <Typewriter text="Hire Me" delay={100} />
-      </h1>
-      <br />
-      <br />
       {/* pdf viewer start */}
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
         <Viewer fileUrl={pdf} />
