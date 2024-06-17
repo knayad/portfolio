@@ -309,6 +309,9 @@ function HomePageAccordion() {
           </Accordion.Header>
           <Accordion.Body>
             <h2>GitHub's API pulls some recent repositories: </h2>
+            <br />
+            <br />
+            <br />
             <Repositories />
           </Accordion.Body>
         </Accordion.Item>
@@ -320,6 +323,12 @@ function HomePageAccordion() {
             </h1>
           </Accordion.Header>
           <Accordion.Body>
+            <h2>
+              MongoDB as database for reviews (wind-up may cause delay to load):{" "}
+            </h2>
+            <br />
+            <br />
+            <br />
             <Reviews />
           </Accordion.Body>
         </Accordion.Item>

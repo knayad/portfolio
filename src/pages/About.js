@@ -78,17 +78,20 @@ const About = () => {
                   </p>
                 </li>
                 <li>
-                  <b>Languages:</b>I want to be a polygot, but I lack the
-                  confidence to speak! My approximate CEFR/ or general levels
-                  are as follows:
+                  <b>Languages:</b>
+                  <br />
+                  My approximate CEFR/ or general levels are as follows:
                   <ul>
                     <li>
                       French: ~A2 (everyday topics) to ~B1 (complex ideas).
                     </li>
                     <li>
-                      Spanish: ~A1 (basic interactions) to ~A2 (everday topics).
+                      Spanish: ~A1 (basic interactions) to ~A2 (everyday
+                      topics).
                     </li>
-                    <li>Japanese: ~A1 (basic interactions).</li>
+                    <li>
+                      Japanese: ~A1 (basic interactions, reading: hiragana).
+                    </li>
                     <li>
                       Arabic: Reading, writing, essential phrases, and grammar
                       concepts.
