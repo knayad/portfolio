@@ -327,8 +327,6 @@ function HomePageAccordion() {
               MongoDB as database for reviews (wind-up may cause delay to load):{" "}
             </h2>
             <br />
-            <br />
-            <br />
             <Reviews />
           </Accordion.Body>
         </Accordion.Item>
