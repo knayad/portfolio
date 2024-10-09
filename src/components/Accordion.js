@@ -16,6 +16,7 @@ import { RiReactjsFill } from "react-icons/ri";
 import TypeWriter from "./TypeWriter";
 import Repositories from "./Repositories";
 
+import theBoss from "../assets/projects/theBoss.png";
 import NounHero from "../assets/projects/NounHero.png";
 import NadiaPortfolio from "../assets/projects/NadiaPortfolio.png";
 import ReviewsAPI from "../assets/projects/ReviewsAPI.png";
@@ -143,6 +144,38 @@ function HomePageAccordion() {
             <h2>Click the thumbnail to look at the associated project.</h2>
             <br />
             <br />
+            <Row>
+              <Col>
+                <a
+                  href="https://thebosscoffeecompany.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={theBoss}
+                    className="projectImgs"
+                    alt="The Boss Coffee Company website screenshot"
+                  />
+                </a>
+              </Col>
+              <Col>
+                <h2>
+                  <i>The Boss Coffee Company</i>
+                </h2>
+                <strong>An e-commerce website using Shopify</strong>
+                <br />
+                <br />
+                <p>
+                  Leveraged <strong> Shopify</strong> to optimize performance
+                  and optimize product listings to enhance the user experience.
+                  Integrated <strong> Shopify apps</strong> for seamless product
+                  listings, payment gateways, and customer tools.{" "}
+                </p>
+                <br />
+
+                <p> Currently password enabled.</p>
+              </Col>
+            </Row>
             <Row>
               <Col>
                 <a
