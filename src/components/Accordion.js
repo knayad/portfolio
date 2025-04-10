@@ -162,14 +162,23 @@ function HomePageAccordion() {
                 <h2>
                   <i>The Boss Coffee Company</i>
                 </h2>
-                <strong>An e-commerce website using Shopify</strong>
+                <strong>E-COMMERCE SHOPIFY STORE</strong>
                 <br />
                 <br />
                 <p>
-                  Leveraged <strong> Shopify</strong> to optimize performance
+                  Built and launched an <strong> active Shopify</strong> site
+                  for <strong> desktop and mobile,</strong> with seamless
+                  product listings,
+                  <strong>
+                    {" "}
+                    payment gateways, and customer support tools.
+                  </strong>{" "}
+                  Integrated <strong> Shopify apps</strong> for customer
+                  communication, order fulfillment, identify customer trends,
                   and optimize product listings to enhance the user experience.
-                  Integrated <strong> Shopify apps</strong> for seamless product
-                  listings, payment gateways, and customer tools.{" "}
+                  Utilized prior coding experience to create a{" "}
+                  <strong> sleek and modern design. </strong> <br /> Want some
+                  boss coffee?
                 </p>
                 <br />
               </Col>
@@ -193,15 +202,21 @@ function HomePageAccordion() {
                 <h2>
                   <i>Noun</i>
                 </h2>
-                <strong>A MERN STACK BLOG SITE USING TAILWIND CSS</strong>
+                <strong>MERN STACK BLOG SITE USING TAILWIND CSS</strong>
                 <br />
                 <br />
                 <p>
                   {" "}
-                  Client-side blog site using Tailwind CSS and the MERN stack{" "}
+                  <strong> Client-side </strong> blog site using{" "}
+                  <strong> Tailwind CSS </strong> and the{" "}
+                  <strong> MERN stack.</strong>{" "}
                   <strong>MongoDB, Express.js, React.js, and Node.js</strong>.
-                  Created a responsive website for desktop, tablets, and mobile
-                  using custom React components.{" "}
+                  Created a{" "}
+                  <strong>
+                    {" "}
+                    responsive website for desktop, tablets, and mobile
+                  </strong>
+                  using <strong>custom React components.</strong>{" "}
                 </p>
                 {/* Get a sneak peek{" "}
               <a
@@ -231,12 +246,19 @@ function HomePageAccordion() {
                 <h2>
                   <i>Portfolio API</i>
                 </h2>
+                <strong>RESTRICTED BACKEND FOR REVIEWS</strong>
+                <br />
+                <br />
                 <p>
-                  Connected MongoDB to the frontend of the project using
-                  Mongoose. All CRUD routes were created, limited authorization
+                  Connected <strong> MongoDB</strong> to the frontend of the
+                  project using
+                  <strong>Mongoose.</strong> All <strong>CRUD routes</strong>{" "}
+                  were created, <strong>limited authorization</strong>
                   was created to restrict use for only retrieval and posting
-                  peer reviews. React context and React reducer were used to
-                  update state for new posts. <br />
+                  peer reviews. <strong>
+                    React context and React reducer
+                  </strong>{" "}
+                  were used to update state for new posts. <br />
                   <br />
                   Check out the Reviews section of this page for more!
                 </p>
@@ -264,10 +286,15 @@ function HomePageAccordion() {
                 <br />
                 <br />
                 <p>
-                  Created a static portfolio on GitHub Pages, using the MERN
-                  stack. Utilized JavaScript (ES6) for custom functions.
-                  Incorporated Google Fonts, Fonts Awesome, React Icons, Spline,
-                  React PDF Viewer, and React Bootstrap.
+                  Created a <strong>static portfolio on GitHub Pages,</strong>{" "}
+                  using the <strong>MERN</strong>
+                  stack. Utilized <strong>JavaScript (ES6)</strong> for{" "}
+                  <strong>custom functions.</strong>
+                  Incorporated{" "}
+                  <strong>
+                    Google Fonts, Fonts Awesome, React Icons, Spline, React PDF
+                    Viewer, and React Bootstrap.
+                  </strong>
                 </p>
               </Col>
             </Row>
@@ -289,14 +316,20 @@ function HomePageAccordion() {
                 <h2>
                   <i>Python Password Generator</i>
                 </h2>
+                <strong>INPUT BASED RANDOM GENERATOR</strong>
+                <br />
+                <br />
                 <p>
-                  Passwords are the linchpin for many programs to keep your
-                  information safe. Generally, the more complex a password, the
-                  safer your information. However, many people re-use passwords
-                  and only make minor modifications to them. This can compromise
-                  the security of the applications we use by putting the
-                  authentication process at risk. This python project aims to
-                  generate more complex passwords.
+                  This <strong>python</strong> project aims to
+                  <strong>generate more complex passwords.</strong> You can{" "}
+                  <strong>customize the inputs</strong> for a{" "}
+                  <strong>randomly generated</strong> output. Passwords are the
+                  linchpin for many programs to keep your information safe.
+                  Generally, the more complex a password, the safer your
+                  information. However, many people re-use passwords and only
+                  make minor modifications to them. This can compromise the
+                  security of the applications we use by putting the
+                  authentication process at risk.
                 </p>
               </Col>
             </Row>
@@ -318,12 +351,23 @@ function HomePageAccordion() {
                 <h2>
                   <i>Mapbox API Bus Route</i>
                 </h2>
+                <strong>REALTIME BUS DATA</strong>
+                <br />
+                <br />
                 <p>
-                  Utilizes the Mapbox library and API, JavaScript, CSS, and HTML
-                  to render a map on a web page to show real-time data. This
-                  project is, as such, an animation. MBTA bus data: stops
-                  between Harvard and MIT with an animated marker on the map to
-                  highlight the bus routes.
+                  Utilizes the{" "}
+                  <strong>
+                    Mapbox library and API, JavaScript, CSS, and HTML
+                  </strong>
+                  to{" "}
+                  <strong>
+                    render a map on a web page to show real-time data.
+                  </strong>{" "}
+                  This project is, as such,{" "}
+                  <strong>an animation. MBTA bus data:</strong> stops between
+                  Harvard and MIT with an animated{" "}
+                  <strong>marker on the map</strong> to highlight the bus
+                  routes.
                 </p>
               </Col>
             </Row>
