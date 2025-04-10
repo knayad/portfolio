@@ -16,7 +16,7 @@ import { RiReactjsFill } from "react-icons/ri";
 import TypeWriter from "./TypeWriter";
 import Repositories from "./Repositories";
 
-import theBoss from "../assets/projects/theBoss.png";
+import TBCC from "../assets/projects/TBCC.png";
 import NounHero from "../assets/projects/NounHero.png";
 import NadiaPortfolio from "../assets/projects/NadiaPortfolio.png";
 import ReviewsAPI from "../assets/projects/ReviewsAPI.png";
@@ -152,7 +152,7 @@ function HomePageAccordion() {
                   rel="noreferrer"
                 >
                   <img
-                    src={theBoss}
+                    src={TBCC}
                     className="projectImgs"
                     alt="The Boss Coffee Company website screenshot"
                   />
@@ -172,8 +172,6 @@ function HomePageAccordion() {
                   listings, payment gateways, and customer tools.{" "}
                 </p>
                 <br />
-
-                <p> Currently password enabled.</p>
               </Col>
             </Row>
             <Row>
