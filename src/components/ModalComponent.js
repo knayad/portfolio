@@ -26,7 +26,7 @@ function ModalComponent() {
         keyboard={false}
       >
         <Modal.Header closeButton onClick={handleClose}>
-          <Modal.Title>Welcome!</Modal.Title>
+          <Modal.Title>Welcome! Please read...</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <strong>

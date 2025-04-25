@@ -15,7 +15,9 @@ import { RiReactjsFill } from "react-icons/ri";
 
 import TypeWriter from "./TypeWriter";
 import Repositories from "./Repositories";
+import ResponsivePlayer from "./ResponsivePlayer";
 
+import CalzoneRat from "../assets/projects/CalzoneRat.mp4";
 import TBCC from "../assets/projects/TBCC.png";
 import NounHero from "../assets/projects/NounHero.png";
 import NadiaPortfolio from "../assets/projects/NadiaPortfolio.png";
@@ -35,105 +37,6 @@ function HomePageAccordion() {
       <Accordion defaultActiveKey={["0", "6"]} flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <h1 className="homeH1">
-              <TypeWriter text="SKILLS & TOOLS" delay={150} />
-            </h1>
-          </Accordion.Header>
-          <Accordion.Body>
-            <br />
-            <br />
-            <br />
-            <br />
-            <Container fluid>
-              <Row className="skillIconG2P">
-                <Col>
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/javascript"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Container>
-                      <FaJs title="JavaScript" />
-                    </Container>
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaCss3Alt title="CSS" />
-                  </a>
-                </Col>
-                {/* <Col>
-          <TbBrandJavascript title="JavaScript" />
-        </Col> */}
-                <Col>
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaHtml5 title="HTML" />
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://www.python.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaPython title="Python" />
-                  </a>
-                </Col>
-              </Row>
-            </Container>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <Container fluid>
-              <Row className="skillIconP2G">
-                <Col>
-                  <a href="https://react.dev/" rel="noreferrer">
-                    <RiReactjsFill title="React" />
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaBootstrap title="Bootstrap" />
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://www.python.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaGithub title="GitHub" />
-                  </a>
-                </Col>
-              </Row>
-            </Container>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="1">
-          <Accordion.Header>
             {" "}
             <h1 className="homeH1">
               <TypeWriter text="PROJECTS" delay={150} />
@@ -144,6 +47,61 @@ function HomePageAccordion() {
             <h2>Click the thumbnail to look at the associated project.</h2>
             <br />
             <br />
+            <Row>
+              <Col>
+                <ResponsivePlayer source={CalzoneRat} />
+              </Col>
+              <Col>
+                <h2>
+                  <i>Calzone Rat</i>
+                </h2>
+                <strong>UNREAL ENGINE 5 & C++ COMPONENTS</strong>
+                <br />
+                <br />
+                <p>
+                  Calzone rat <strong> coded components </strong> extra why it's
+                  special.
+                </p>
+                <br />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                {/* <a href="n/a" target="_blank" rel="noreferrer">
+                  <img
+                    src={video - play}
+                    className="projectImgs"
+                    alt="Obst Course"
+                  />
+                </a> */}
+              </Col>
+              <Col>
+                <h2>
+                  <i>Obst Course</i>
+                </h2>
+                <strong>UNREAL ENGINE 5 & C++</strong>
+                <br />
+                <br />
+                <p>
+                  Developed <strong>C++ fundamentals,</strong> including{" "}
+                  <strong>
+                    syntax structure, local variables, and class creation.
+                  </strong>{" "}
+                  Built and organized header and source files with clear
+                  separation of <strong>member variables and functions.</strong>{" "}
+                  Created child classes using inheritance and integrated{" "}
+                  <strong>Unreal Engine features</strong> such as{" "}
+                  <strong>
+                    UE_LOG, UPROPERTY, and types like FString, FVector, and
+                    FRotator.
+                  </strong>{" "}
+                  Worked with <strong>GameMode and Character classes</strong> to
+                  streamline gameplay systems and support modular game
+                  development in Unreal Engine.
+                </p>
+                <br />
+              </Col>
+            </Row>
             <Row>
               <Col>
                 <a
@@ -251,14 +209,12 @@ function HomePageAccordion() {
                 <br />
                 <p>
                   Connected <strong> MongoDB</strong> to the frontend of the
-                  project using
-                  <strong>Mongoose.</strong> All <strong>CRUD routes</strong>{" "}
-                  were created, <strong>limited authorization</strong>
-                  was created to restrict use for only retrieval and posting
-                  peer reviews. <strong>
-                    React context and React reducer
-                  </strong>{" "}
-                  were used to update state for new posts. <br />
+                  project using <strong>Mongoose.</strong> All{" "}
+                  <strong>CRUD routes</strong> were created,{" "}
+                  <strong>limited authorization</strong> was created to restrict
+                  use for only retrieval and posting peer reviews.{" "}
+                  <strong>React context and React reducer</strong> were used to
+                  update state for new posts. <br />
                   <br />
                   Check out the Reviews section of this page for more!
                 </p>
@@ -287,10 +243,9 @@ function HomePageAccordion() {
                 <br />
                 <p>
                   Created a <strong>static portfolio on GitHub Pages,</strong>{" "}
-                  using the <strong>MERN</strong>
-                  stack. Utilized <strong>JavaScript (ES6)</strong> for{" "}
-                  <strong>custom functions.</strong>
-                  Incorporated{" "}
+                  using the <strong>MERN</strong> stack. Utilized{" "}
+                  <strong>JavaScript (ES6)</strong> for{" "}
+                  <strong>custom functions.</strong> Incorporated{" "}
                   <strong>
                     Google Fonts, Fonts Awesome, React Icons, Spline, React PDF
                     Viewer, and React Bootstrap.
@@ -320,7 +275,7 @@ function HomePageAccordion() {
                 <br />
                 <br />
                 <p>
-                  This <strong>python</strong> project aims to
+                  This <strong>python</strong> project aims to{" "}
                   <strong>generate more complex passwords.</strong> You can{" "}
                   <strong>customize the inputs</strong> for a{" "}
                   <strong>randomly generated</strong> output. Passwords are the
@@ -358,7 +313,7 @@ function HomePageAccordion() {
                   Utilizes the{" "}
                   <strong>
                     Mapbox library and API, JavaScript, CSS, and HTML
-                  </strong>
+                  </strong>{" "}
                   to{" "}
                   <strong>
                     render a map on a web page to show real-time data.
@@ -376,21 +331,106 @@ function HomePageAccordion() {
           </Button> */}
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="2">
+        <Accordion.Item eventKey="1">
           <Accordion.Header>
             <h1 className="homeH1">
-              <TypeWriter text="REPOSITORIES" delay={150} />
+              <TypeWriter text="SKILLS & TOOLS" delay={150} />
             </h1>
           </Accordion.Header>
           <Accordion.Body>
-            <h2>GitHub's API pulls some recent repositories: </h2>
             <br />
             <br />
             <br />
-            <Repositories />
+            <br />
+            <Container fluid>
+              <Row className="skillIconG2P">
+                <Col>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Container>
+                      <FaJs title="JavaScript" />
+                    </Container>
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaCss3Alt title="CSS" />
+                  </a>
+                </Col>
+                {/* <Col>
+          <TbBrandJavascript title="JavaScript" />
+        </Col> */}
+                <Col>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaHtml5 title="HTML" />
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.python.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaPython title="Python" />
+                  </a>
+                </Col>
+              </Row>
+            </Container>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Container fluid>
+              <Row className="skillIconP2G">
+                <Col>
+                  <a href="https://react.dev/" rel="noreferrer">
+                    <RiReactjsFill title="React" />
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaBootstrap title="Bootstrap" />
+                  </a>
+                </Col>
+                <Col>
+                  <a
+                    href="https://www.python.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithub title="GitHub" />
+                  </a>
+                </Col>
+              </Row>
+            </Container>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="3">
+        <Accordion.Item eventKey="2">
           <Accordion.Header>
             {" "}
             <h1 className="homeH1">
@@ -403,6 +443,20 @@ function HomePageAccordion() {
             </h2>
             <br />
             <Reviews />
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>
+            <h1 className="homeH1">
+              <TypeWriter text="REPOSITORIES" delay={150} />
+            </h1>
+          </Accordion.Header>
+          <Accordion.Body>
+            <h2>GitHub's API pulls some recent repositories: </h2>
+            <br />
+            <br />
+            <br />
+            <Repositories />
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
