@@ -15,9 +15,9 @@ import { RiReactjsFill } from "react-icons/ri";
 
 import TypeWriter from "./TypeWriter";
 import Repositories from "./Repositories";
-// import ResponsivePlayer from "./ResponsivePlayer";
 
-// import CalzoneRat from "../assets/projects/CalzoneRat.mp4";
+import CalzRat from "../assets/projects/CalzoneRat.png";
+import obst from "../assets/projects/obscourse.png";
 import TBCC from "../assets/projects/TBCC.png";
 import NounHero from "../assets/projects/NounHero.png";
 import NadiaPortfolio from "../assets/projects/NadiaPortfolio.png";
@@ -44,43 +44,34 @@ function HomePageAccordion() {
           </Accordion.Header>
           <Accordion.Body>
             <br />
-            <h2>Click the thumbnail to look at the associated project.</h2>
+            <h2>Some thumbnails may have an associated project.</h2>
             <br />
             <br />
             <Row>
               <Col>
-                {/* <a
-                  href="youtube link?"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={a thumbnail?}
-                    className="projectImgs"
-                    alt="Callzone Rat"
-                  />
-                </a> */}
-              </Col>
-              <Col>
                 <h2>
                   <i>Calzone Rat</i>
                 </h2>
+                {/* <a href="youtube link?" target="_blank" rel="noreferrer"> */}
+                <img src={CalzRat} className="projectImgs" alt="Calzone Rat" />
+                {/* </a> */}
+              </Col>
+              <Col>
+                <br />
+                <br />
                 <strong>UNREAL ENGINE 5 & C++ COMPONENTS</strong>
                 <br />
                 <br />
                 <p>
-                  Worked with <strong>pointers and references</strong> in C++ to
-                  manage memory and pass data efficiently. Utilized{" "}
+                  Used <strong>pointers and references in C++</strong> to manage
+                  memory and pass data efficiently. Utilized{" "}
                   <strong>Actor and Scene Components</strong>
-                  in Unreal Engine to build modular gameplay systems. Applied
-                  best practices for including header files to maintain clean
-                  and organized code. Implemented{" "}
+                  to build modular build. Implemented{" "}
                   <strong>dynamic lighting using Lumen</strong>
                   and designed{" "}
                   <strong>modular levels with reusable assets.</strong> Explored
-                  <strong>different loop types</strong> in C++ for varied
-                  control flow. Experimented with textures to enhance visual
-                  design, called
+                  <strong>different loop types.</strong> Experimented with
+                  textures to enhance visual design, called
                   <strong>C++ functions from Blueprints</strong> for flexible
                   scripting, and created <strong>player animations</strong> to
                   bring characters to life.
@@ -90,44 +81,44 @@ function HomePageAccordion() {
             </Row>
             <Row>
               <Col>
-                {/* <a href="n/a" target="_blank" rel="noreferrer">
-                  <img
-                    src={video - play}
-                    className="projectImgs"
-                    alt="Obst Course"
-                  />
-                </a> */}
+                <h2>
+                  <i>Obstacle Course</i>
+                </h2>
+                {/* <a href="n/a" target="_blank" rel="noreferrer"> */}
+                <img src={obst} className="projectImgs" alt="Obst Course" />
+                {/* </a> */}
               </Col>
               <Col>
-                <h2>
-                  <i>Obst Course</i>
-                </h2>
+                <br />
+                <br />
                 <strong>UNREAL ENGINE 5 & C++</strong>
                 <br />
                 <br />
                 <p>
-                  Developed <strong>C++ fundamentals,</strong> including{" "}
+                  <strong>C++ fundamentals,</strong> including{" "}
                   <strong>
                     syntax structure, local variables, and class creation.
                   </strong>{" "}
-                  Built and organized header and source files with clear
-                  separation of <strong>member variables and functions.</strong>{" "}
-                  Created child classes using inheritance and integrated{" "}
+                  Organized header and source files; separation of{" "}
+                  <strong>member variables and functions.</strong> Created child
+                  classes using inheritance and integrated{" "}
                   <strong>Unreal Engine features</strong> such as{" "}
                   <strong>
                     UE_LOG, UPROPERTY, and types like FString, FVector, and
                     FRotator.
                   </strong>{" "}
-                  Worked with <strong>GameMode and Character classes</strong> to
-                  streamline gameplay systems and support modular game
-                  development in Unreal Engine. Created{" "}
-                  <strong>double-sided textures.</strong>
+                  Used <strong>GameMode and Character classes</strong> and{" "}
+                  <strong>modular game</strong> development in Unreal Engine.
+                  Created <strong>double-sided textures.</strong>
                 </p>
                 <br />
               </Col>
             </Row>
             <Row>
               <Col>
+                <h2>
+                  <i>The Boss Coffee Company</i>
+                </h2>
                 <a
                   href="https://thebosscoffeecompany.com/"
                   target="_blank"
@@ -141,9 +132,8 @@ function HomePageAccordion() {
                 </a>
               </Col>
               <Col>
-                <h2>
-                  <i>The Boss Coffee Company</i>
-                </h2>
+                <br />
+                <br />
                 <strong>E-COMMERCE SHOPIFY STORE</strong>
                 <br />
                 <br />
@@ -167,6 +157,9 @@ function HomePageAccordion() {
             </Row>
             <Row>
               <Col>
+                <h2>
+                  <i>Noun</i>
+                </h2>
                 <a
                   // href="https://github.com/knayad/blog"
                   href="https://blog-afcj.onrender.com/"
@@ -181,9 +174,8 @@ function HomePageAccordion() {
                 </a>
               </Col>
               <Col>
-                <h2>
-                  <i>Noun</i>
-                </h2>
+                <br />
+                <br />
                 <strong>MERN STACK BLOG SITE USING TAILWIND CSS</strong>
                 <br />
                 <br />
@@ -212,6 +204,9 @@ function HomePageAccordion() {
             </Row>
             <Row>
               <Col>
+                <h2>
+                  <i>Portfolio API</i>
+                </h2>
                 <a
                   href="https://github.com/knayad/portfolio-api"
                   target="_blank"
@@ -225,9 +220,8 @@ function HomePageAccordion() {
                 </a>
               </Col>
               <Col>
-                <h2>
-                  <i>Portfolio API</i>
-                </h2>
+                <br />
+                <br />
                 <strong>RESTRICTED BACKEND FOR REVIEWS</strong>
                 <br />
                 <br />
@@ -246,6 +240,9 @@ function HomePageAccordion() {
             </Row>
             <Row>
               <Col>
+                <h2>
+                  <i>Portfolio</i>
+                </h2>
                 <a
                   href="https://github.com/knayad/portfolio"
                   target="_blank"
@@ -259,9 +256,8 @@ function HomePageAccordion() {
                 </a>
               </Col>
               <Col>
-                <h2>
-                  <i>Portfolio</i>
-                </h2>
+                <br />
+                <br />
                 <strong>MERN STACK STATIC SITE ON GITHUB PAGES</strong>
                 <br />
                 <br />
@@ -279,6 +275,9 @@ function HomePageAccordion() {
             </Row>
             <Row>
               <Col>
+                <h2>
+                  <i>Python Password Generator</i>
+                </h2>
                 <a
                   href="https://github.com/knayad/pythonPasswords"
                   target="_blank"
@@ -292,9 +291,8 @@ function HomePageAccordion() {
                 </a>
               </Col>
               <Col>
-                <h2>
-                  <i>Python Password Generator</i>
-                </h2>
+                <br />
+                <br />
                 <strong>INPUT BASED RANDOM GENERATOR</strong>
                 <br />
                 <br />
@@ -314,6 +312,9 @@ function HomePageAccordion() {
             </Row>
             <Row>
               <Col className="projectGIFS">
+                <h2>
+                  <i>Mapbox API Bus Route</i>
+                </h2>
                 <a
                   href="https://github.com/knayad/basicAnimationToMaps"
                   target="_blank"
@@ -327,9 +328,8 @@ function HomePageAccordion() {
                 </a>
               </Col>
               <Col>
-                <h2>
-                  <i>Mapbox API Bus Route</i>
-                </h2>
+                <br />
+                <br />
                 <strong>REALTIME BUS DATA</strong>
                 <br />
                 <br />
