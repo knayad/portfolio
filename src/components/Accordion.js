@@ -25,7 +25,7 @@ import MySpline from "./MySpline";
 function HomePageAccordion() {
   return (
     <Container>
-      <Accordion defaultActiveKey={["0", "6"]} flush>
+      <Accordion defaultActiveKey={["0", "6"]} flush alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             {" "}
