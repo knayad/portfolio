@@ -29,7 +29,8 @@ const Home = () => {
           <br />
           <img id="sup" alt="sup?" src={sup} />
           <p id="my-spiel">
-            I am a full stack web developer with an interest in data science.
+            I am a full stack web developer interested in other languages and
+            tools!
           </p>
           {/* <span>
             <Button variant="success" size="lg" href="hire">

@@ -11,8 +11,8 @@ const AboutMeList = (
     <li>
       <b>Traveling:</b>{" "}
       <p>
-        A decent hostel with wifi and I am good to go! A hotel works too, if you
-        read that incorrectly.{" "}
+        A decent hostel and I am good to go! A hotel works too, if you read that
+        incorrectly.{" "}
       </p>
     </li>
     <li>

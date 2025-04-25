@@ -15,9 +15,9 @@ import { RiReactjsFill } from "react-icons/ri";
 
 import TypeWriter from "./TypeWriter";
 import Repositories from "./Repositories";
-import ResponsivePlayer from "./ResponsivePlayer";
+// import ResponsivePlayer from "./ResponsivePlayer";
 
-import CalzoneRat from "../assets/projects/CalzoneRat.mp4";
+// import CalzoneRat from "../assets/projects/CalzoneRat.mp4";
 import TBCC from "../assets/projects/TBCC.png";
 import NounHero from "../assets/projects/NounHero.png";
 import NadiaPortfolio from "../assets/projects/NadiaPortfolio.png";
@@ -49,7 +49,17 @@ function HomePageAccordion() {
             <br />
             <Row>
               <Col>
-                <ResponsivePlayer source={CalzoneRat} />
+                {/* <a
+                  href="youtube link?"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={a thumbnail?}
+                    className="projectImgs"
+                    alt="Callzone Rat"
+                  />
+                </a> */}
               </Col>
               <Col>
                 <h2>
@@ -59,8 +69,21 @@ function HomePageAccordion() {
                 <br />
                 <br />
                 <p>
-                  Calzone rat <strong> coded components </strong> extra why it's
-                  special.
+                  Worked with <strong>pointers and references</strong> in C++ to
+                  manage memory and pass data efficiently. Utilized{" "}
+                  <strong>Actor and Scene Components</strong>
+                  in Unreal Engine to build modular gameplay systems. Applied
+                  best practices for including header files to maintain clean
+                  and organized code. Implemented{" "}
+                  <strong>dynamic lighting using Lumen</strong>
+                  and designed{" "}
+                  <strong>modular levels with reusable assets.</strong> Explored
+                  <strong>different loop types</strong> in C++ for varied
+                  control flow. Experimented with textures to enhance visual
+                  design, called
+                  <strong>C++ functions from Blueprints</strong> for flexible
+                  scripting, and created <strong>player animations</strong> to
+                  bring characters to life.
                 </p>
                 <br />
               </Col>
@@ -97,7 +120,8 @@ function HomePageAccordion() {
                   </strong>{" "}
                   Worked with <strong>GameMode and Character classes</strong> to
                   streamline gameplay systems and support modular game
-                  development in Unreal Engine.
+                  development in Unreal Engine. Created{" "}
+                  <strong>double-sided textures.</strong>
                 </p>
                 <br />
               </Col>
