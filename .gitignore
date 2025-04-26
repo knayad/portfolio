@@ -1,0 +1,32 @@
+# Ignore Node-related stuff
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore source code folders you don't want in gh-pages
+src/
+public/
+# build/ (allow to publish)
+scripts/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Git temporary files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Optional: ignore coverage/testing folders if any
+coverage/
