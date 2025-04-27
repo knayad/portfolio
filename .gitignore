@@ -9,7 +9,8 @@
 /coverage
 
 # production
-# /build (comment out build for gh-pages branch to allow build files)
+/build 
+# (comment out build for gh-pages branch to allow build files)
 
 # misc
 .DS_Store
