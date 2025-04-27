@@ -52,10 +52,10 @@ function ModalComponent() {
             <p> It also uses:</p>
           </strong>
           <ul>
-            <li>
+            {/* <li>
               <strong>Spline:</strong> a 3D design software that can create
               interactive models.
-            </li>
+            </li> */}
             <li>
               <strong>GitHub's API: </strong>a REST API used to pull and display
               repositories.
