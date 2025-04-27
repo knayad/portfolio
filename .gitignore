@@ -1,14 +1,14 @@
 # Ignore Node-related stuff
-/node_modules/
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # Ignore source code folders you don't want in gh-pages
-src
-/public
+src/
+public/
 # build/ (allow to publish)
-/scripts
+scripts/
 
 # Ignore system files
 .DS_Store
