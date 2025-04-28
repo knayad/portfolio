@@ -20,7 +20,7 @@ import { accordionProject } from "../text/accordionProject";
 import About from "../pages/About";
 import HireMe from "../pages/HireMe";
 import Reviews from "../pages/Reviews";
-// import MySpline from "./MySpline";
+import MySpline from "./MySpline";
 
 function HomePageAccordion() {
   return (
@@ -187,16 +187,16 @@ function HomePageAccordion() {
           </Accordion.Body>
         </Accordion.Item>
 
-        {/* <Accordion.Item eventKey="6">
+        <Accordion.Item eventKey="6">
           <Accordion.Header>
             <h1 className="homeH1">
               <TypeWriter text="SPLINE" delay={150} />
             </h1>
           </Accordion.Header>
-          <Accordion.Body>{my spline?}</Accordion.Body>
-        </Accordion.Item> */}
+          <Accordion.Body>{/* <MySpline /> */}</Accordion.Body>
+        </Accordion.Item>
       </Accordion>
-      {/* <MySpline /> */}
+      <MySpline />
     </Container>
   );
 }
